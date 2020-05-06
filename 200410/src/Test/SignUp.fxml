@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="280.0" style="-fx-background-color: skyblue; -fx-alignment: center;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="179.0" style="-fx-alignment: center;">
+         <children>
+            <Label text="User Sign Up" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+               </VBox.margin>
+            </Label>
+            <AnchorPane prefHeight="154.0" prefWidth="179.0" style="-fx-background-color: white;">
+               <children>
+                  <TextField layoutX="9.0" layoutY="28.0" />
+                  <TextField layoutX="9.0" layoutY="73.0" />
+                  <Button layoutX="59.0" layoutY="107.0" mnemonicParsing="false" text="Sign Up" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</HBox>

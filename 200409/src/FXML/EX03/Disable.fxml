@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="105.0" prefWidth="240.0" 
+xmlns="http://javafx.com/javafx/8" 
+xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="FXML.EX03.Controller">
+   <children>
+      <Label fx:id="lbl" layoutX="50.0" layoutY="21.0" prefHeight="27.0" prefWidth="119.0" text="Button Disable Test" />
+      <Button fx:id="btn1"layoutX="23.0" layoutY="73.0" mnemonicParsing="false" text="Button1" />
+      <Button fx:id="btn2"layoutX="134.0" layoutY="73.0" mnemonicParsing="false" text="Button2" />
+   </children>
+</AnchorPane>

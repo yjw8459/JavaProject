@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="167.0" prefWidth="335.0"
+ xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+ fx:controller="selfLogin.Controller">
+   <children>
+      <TextField fx:id="idTxt" layoutX="36.0" layoutY="37.0" />
+      <TextField fx:id="pwTxt" layoutX="36.0" layoutY="93.0" />
+      <Button onAction="#loginProc" fx:id="okBtn" layoutX="219.0" layoutY="37.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="80.0" text="로그인" />
+   </children>
+</AnchorPane>
